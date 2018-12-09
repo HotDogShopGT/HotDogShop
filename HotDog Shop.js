@@ -33,7 +33,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_3 = function() {
+(lib.CachedTexturedBitmap_1 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -190,7 +190,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,343,147);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_3();
+	this.instance_1 = new lib.CachedTexturedBitmap_1();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -416,6 +416,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,110,101.1);
 	}
 	this.frame_17 = function() {
 		this.movieClip_3 = this.animationpart2.movieClip_3;
+		playSound("backgroundmusic",-1);
 	}
 	this.frame_20 = function() {
 		this.movieClip_3 = undefined;this.movieClip_11 = this.animationpart2.movieClip_11;
@@ -515,11 +516,11 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544331936993", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544331936993", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/Awav.mp3?1544331937022", id:"Awav"},
-		{src:"sounds/backgroundmusic.mp3?1544331937022", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544331937022", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544386964466", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544386964466", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/Awav.mp3?1544386964501", id:"Awav"},
+		{src:"sounds/backgroundmusic.mp3?1544386964501", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544386964501", id:"surprice"}
 	],
 	preloads: []
 };
