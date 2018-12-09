@@ -33,7 +33,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_1 = function() {
+(lib.CachedTexturedBitmap_3 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
@@ -118,6 +118,20 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 }).prototype = getMCSymbolPrototype(lib.过场_图层_1, null, null);
 
 
+(lib.喇叭 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 图层_1
+	this.instance = new lib.playsound();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.4382,0.503);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,110,101.1);
+
+
 (lib.PLAY = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -176,7 +190,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,343,147);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_1();
+	this.instance_1 = new lib.CachedTexturedBitmap_3();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -203,6 +217,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.timeline.addTween(cjs.Tween.get(this.图层_1).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.过场, new cjs.Rectangle(-350,-250,700,500), null);
+
+
+(lib.喇叭按钮 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_1 = function() {
+		playSound("Awav");
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(1).call(this.frame_1).wait(1));
+
+	// 图层_1
+	this.instance = new lib.喇叭("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(55,50.6,1,1,0,0,0,55,50.6);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},1).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,110,101.1);
 
 
 (lib.HotDogShop_1 = function(mode,startPosition,loop) {
@@ -248,15 +284,39 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// letter_A
-	this.instance = new lib.playsound();
+	this.instance = new lib.喇叭按钮();
 	this.instance.parent = this;
-	this.instance.setTransform(173,66,0.4382,0.503);
+	this.instance.setTransform(175.2,46.7);
+	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
 	this.instance_1 = new lib.A_1();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(114.55,127.85);
+	this.instance_1.setTransform(120.05,101.25);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},21).to({state:[{t:this.instance_1},{t:this.instance}]},1).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+
+
+(lib.场景_1_animationpart2 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// animationpart2
+	this.movieClip_3 = new lib.过场();
+	this.movieClip_3.name = "movieClip_3";
+	this.movieClip_3.parent = this;
+	this.movieClip_3.setTransform(353,249);
+
+	this.movieClip_11 = new lib.A_1();
+	this.movieClip_11.name = "movieClip_11";
+	this.movieClip_11.parent = this;
+	this.movieClip_11.setTransform(82.35,155.75);
+
+	this.instance = new lib.选择页面bg("synched",0);
+	this.instance.parent = this;
+	this.instance.setTransform(485.05,231.8,1,1,0,0,0,490,231.8);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.movieClip_3}]},17).to({state:[{t:this.instance},{t:this.movieClip_11}]},3).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -296,63 +356,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_2.setTransform(174.2,266);
 	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get(this.button_2).to({_off:true},1).wait(20));
-
-}).prototype = p = new cjs.MovieClip();
-
-
-(lib.元件_1_图层_1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 图层_1
-	this.instance = new lib.A_1();
-	this.instance.parent = this;
-	this.instance.setTransform(-419.55,-83.8);
-
-	this.instance_1 = new lib.选择页面bg("synched",0);
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(0,0.2,1,1,0,0,0,490,231.8);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件_1_图层_1, null, null);
-
-
-(lib.元件1 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 图层_1_obj_
-	this.图层_1 = new lib.元件_1_图层_1();
-	this.图层_1.name = "图层_1";
-	this.图层_1.parent = this;
-	this.图层_1.setTransform(0,0.2,1,1,0,0,0,0,0.2);
-	this.图层_1.depth = 0;
-	this.图层_1.isAttachedToCamera = 0
-	this.图层_1.isAttachedToMask = 0
-	this.图层_1.layerDepth = 0
-	this.图层_1.layerIndex = 0
-	this.图层_1.maskLayerName = 0
-
-	this.timeline.addTween(cjs.Tween.get(this.图层_1).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.元件1, new cjs.Rectangle(-490,-231.6,980,463.7), null);
-
-
-(lib.场景_1_animationpart2 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// animationpart2
-	this.movieClip_3 = new lib.过场();
-	this.movieClip_3.name = "movieClip_3";
-	this.movieClip_3.parent = this;
-	this.movieClip_3.setTransform(353,249);
-
-	this.movieClip_8 = new lib.元件1();
-	this.movieClip_8.name = "movieClip_8";
-	this.movieClip_8.parent = this;
-	this.movieClip_8.setTransform(485,237.9,1,1,0,0,0,0,0.3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.movieClip_3}]},17).to({state:[{t:this.movieClip_8}]},3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.button_2).to({_off:true},1).wait(22));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -414,15 +418,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 		this.movieClip_3 = this.animationpart2.movieClip_3;
 	}
 	this.frame_20 = function() {
-		this.movieClip_3 = undefined;this.movieClip_8 = this.animationpart2.movieClip_8;
-		this.movieClip_8.addEventListener("click", fl_MouseClickHandler_10.bind(this));
+		this.movieClip_3 = undefined;this.movieClip_11 = this.animationpart2.movieClip_11;
+		this.movieClip_11.addEventListener("click", fl_MouseClickHandler_12.bind(this));
 		
-		function fl_MouseClickHandler_10()
+		function fl_MouseClickHandler_12()
 		{
-			// 开始您的自定义代码
-			// 此示例代码在"输出"面板中显示"已单击鼠标"。
-			alert("已单击鼠标");
 			this.gotoAndPlay(22);
+			alert("已单击鼠标");
 			// 结束您的自定义代码
 		}
 		this.stop();
@@ -447,7 +449,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.actions.layerIndex = 0
 	this.actions.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.actions).wait(20).to({_off:true},1).wait(2));
+	this.timeline.addTween(cjs.Tween.get(this.actions).wait(23));
 
 	// letter_A_obj_
 	this.letter_A = new lib.场景_1_letter_A();
@@ -503,7 +505,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.timeline.addTween(cjs.Tween.get(this.background).to({_off:true},1).wait(22));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(345,249,675.3,250);
+p.nominalBounds = new cjs.Rectangle(345.1,249,675.1999999999999,250);
 // library properties:
 lib.properties = {
 	id: '18C280979098D742A10748B19EC853B3',
@@ -513,10 +515,11 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544329272308", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544329272308", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/backgroundmusic.mp3?1544329272342", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544329272342", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544331936993", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544331936993", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/Awav.mp3?1544331937022", id:"Awav"},
+		{src:"sounds/backgroundmusic.mp3?1544331937022", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544331937022", id:"surprice"}
 	],
 	preloads: []
 };
