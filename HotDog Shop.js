@@ -47,7 +47,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_3 = function() {
+(lib.CachedTexturedBitmap_1 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -211,7 +211,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_3();
+	this.instance_1 = new lib.CachedTexturedBitmap_1();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -283,15 +283,15 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// letters
-	this.instance = new lib.A_1();
-	this.instance.parent = this;
-	this.instance.setTransform(120.05,101.25);
-
 	this.button_13 = new lib.Back();
 	this.button_13.name = "button_13";
 	this.button_13.parent = this;
 	this.button_13.setTransform(624.1,435.9,1,1,0,0,0,56.1,37.9);
 	new cjs.ButtonHelper(this.button_13, 0, 1, 1);
+
+	this.instance = new lib.A_1();
+	this.instance.parent = this;
+	this.instance.setTransform(120.05,101.25);
 
 	this.button_15 = new lib.Back();
 	this.button_15.name = "button_15";
@@ -303,7 +303,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(49,56,0.3916,0.4093);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},21).to({state:[{t:this.instance},{t:this.button_13}]},1).to({state:[{t:this.instance_1},{t:this.button_15}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance},{t:this.button_13}]},21).to({state:[{t:this.instance_1},{t:this.button_15}]},1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -386,7 +386,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_12.setTransform(160.25,155,1.476,1.2583,0,0,0,25.1,30);
 	new cjs.ButtonHelper(this.button_12, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_2}]}).to({state:[]},1).to({state:[{t:this.button_12}]},19).to({state:[]},1).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_2}]}).to({state:[]},1).to({state:[{t:this.button_12}]},19).to({state:[]},1).wait(2));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -475,10 +475,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 		this.stop();
 	}
 	this.frame_21 = function() {
-		this.button_12 = undefined;
-	}
-	this.frame_22 = function() {
-		this.button_13 = this.letters.button_13;
+		this.button_12 = undefined;this.button_13 = this.letters.button_13;
 		//Stop Here
 		this.stop();
 		
@@ -491,7 +488,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 			
 		}
 	}
-	this.frame_23 = function() {
+	this.frame_22 = function() {
 		this.button_13 = undefined;this.button_15 = this.letters.button_15;
 		this.stop();
 		
@@ -509,7 +506,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(8).call(this.frame_9).wait(8).call(this.frame_17).wait(3).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(19).call(this.frame_42).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(8).call(this.frame_9).wait(8).call(this.frame_17).wait(3).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(20).call(this.frame_42).wait(1));
 
 	// game_obj_
 	this.game = new lib.场景_1_game();
@@ -536,7 +533,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.actions.layerIndex = 1
 	this.actions.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.actions).wait(23).to({_off:true},1).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.actions).wait(22).to({_off:true},1).wait(20));
 
 	// letters_obj_
 	this.letters = new lib.场景_1_letters();
@@ -549,7 +546,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.letters.layerIndex = 2
 	this.letters.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.letters).wait(23).to({_off:true},1).wait(19));
+	this.timeline.addTween(cjs.Tween.get(this.letters).wait(22).to({_off:true},1).wait(20));
 
 	// animationpart2_obj_
 	this.animationpart2 = new lib.场景_1_animationpart2();
@@ -602,10 +599,10 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544412002911", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544412002911", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/backgroundmusic.mp3?1544412002936", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544412002936", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544413075254", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544413075254", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/backgroundmusic.mp3?1544413075285", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544413075286", id:"surprice"}
 	],
 	preloads: []
 };

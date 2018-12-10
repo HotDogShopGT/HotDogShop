@@ -1,0 +1,406 @@
+﻿2018-12-06 21:11:02.554   Log opened. (Time zone: UTC-05:00)
+2018-12-06 21:11:02.554   Setup version: Inno Setup version 5.5.9 (u)
+2018-12-06 21:11:02.554   Original Setup EXE: C:\Users\lxhuw\Downloads\录音精灵4.2.3\streaming-audio-recorder-cn-4.2.3.exe
+2018-12-06 21:11:02.555   Setup command line: /SL5="$220C82,22187549,316416,C:\Users\lxhuw\Downloads\录音精灵4.2.3\streaming-audio-recorder-cn-4.2.3.exe" /SPAWNWND=$50B1C /NOTIFYWND=$1F05A2 
+2018-12-06 21:11:02.555   Windows version: 10.0.17134  (NT platform: Yes)
+2018-12-06 21:11:02.555   64-bit Windows: Yes
+2018-12-06 21:11:02.555   Processor architecture: x64
+2018-12-06 21:11:02.555   User privileges: Administrative
+2018-12-06 21:11:02.560   64-bit install mode: No
+2018-12-06 21:11:02.567   Created temporary directory: C:\Users\lxhuw\AppData\Local\Temp\is-MJMCG.tmp
+2018-12-06 21:11:02.574   Extracting temporary file: C:\Users\lxhuw\AppData\Local\Temp\is-MJMCG.tmp\isxdl.dll
+2018-12-06 21:11:02.826   Extracting temporary file: C:\Users\lxhuw\AppData\Local\Temp\is-MJMCG.tmp\install_top@2x.bmp
+2018-12-06 21:11:16.903   Starting the installation process.
+2018-12-06 21:11:16.907   Creating directory: L:\Streaming Audio Recorder
+2018-12-06 21:11:16.908   Creating directory: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\4.2.3.0
+2018-12-06 21:11:16.909   Setting permissions on directory: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\4.2.3.0
+2018-12-06 21:11:16.913   Directory for uninstall files: L:\Streaming Audio Recorder
+2018-12-06 21:11:16.913   Creating new uninstall log: L:\Streaming Audio Recorder\unins000.dat
+2018-12-06 21:11:16.917   -- File entry --
+2018-12-06 21:11:16.918   Dest filename: L:\Streaming Audio Recorder\unins000.exe
+2018-12-06 21:11:16.921   Time stamp of our file: 2018-12-06 21:11:02.166
+2018-12-06 21:11:16.921   Installing the file.
+2018-12-06 21:11:16.929   Uninstaller requires administrator: Yes
+2018-12-06 21:11:16.930   Successfully installed the file.
+2018-12-06 21:11:16.931   -- File entry --
+2018-12-06 21:11:16.932   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll
+2018-12-06 21:11:16.932   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.932   Installing the file.
+2018-12-06 21:11:16.932   Creating directory: L:\Streaming Audio Recorder\wmpplugins
+2018-12-06 21:11:16.933   Creating directory: L:\Streaming Audio Recorder\wmpplugins\x86
+2018-12-06 21:11:16.942   Successfully installed the file.
+2018-12-06 21:11:16.943   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.943   -- File entry --
+2018-12-06 21:11:16.944   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll
+2018-12-06 21:11:16.944   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.944   Installing the file.
+2018-12-06 21:11:16.952   Successfully installed the file.
+2018-12-06 21:11:16.952   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.952   -- File entry --
+2018-12-06 21:11:16.953   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll
+2018-12-06 21:11:16.954   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.954   Installing the file.
+2018-12-06 21:11:16.958   Successfully installed the file.
+2018-12-06 21:11:16.958   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.958   -- File entry --
+2018-12-06 21:11:16.959   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll
+2018-12-06 21:11:16.959   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.959   Installing the file.
+2018-12-06 21:11:16.969   Successfully installed the file.
+2018-12-06 21:11:16.969   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.969   -- File entry --
+2018-12-06 21:11:16.970   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll
+2018-12-06 21:11:16.970   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.970   Installing the file.
+2018-12-06 21:11:16.978   Successfully installed the file.
+2018-12-06 21:11:16.978   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.978   -- File entry --
+2018-12-06 21:11:16.979   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll
+2018-12-06 21:11:16.979   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.979   Installing the file.
+2018-12-06 21:11:16.987   Successfully installed the file.
+2018-12-06 21:11:16.987   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.987   -- File entry --
+2018-12-06 21:11:16.988   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll
+2018-12-06 21:11:16.988   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:16.988   Installing the file.
+2018-12-06 21:11:16.999   Successfully installed the file.
+2018-12-06 21:11:16.999   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:16.999   -- File entry --
+2018-12-06 21:11:17.000   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll
+2018-12-06 21:11:17.000   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.000   Installing the file.
+2018-12-06 21:11:17.011   Successfully installed the file.
+2018-12-06 21:11:17.011   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.011   -- File entry --
+2018-12-06 21:11:17.012   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll
+2018-12-06 21:11:17.012   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.012   Installing the file.
+2018-12-06 21:11:17.038   Successfully installed the file.
+2018-12-06 21:11:17.038   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.039   -- File entry --
+2018-12-06 21:11:17.039   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll
+2018-12-06 21:11:17.039   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.040   Installing the file.
+2018-12-06 21:11:17.051   Successfully installed the file.
+2018-12-06 21:11:17.051   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.051   -- File entry --
+2018-12-06 21:11:17.052   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll
+2018-12-06 21:11:17.052   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.052   Installing the file.
+2018-12-06 21:11:17.061   Successfully installed the file.
+2018-12-06 21:11:17.061   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.061   -- File entry --
+2018-12-06 21:11:17.062   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll
+2018-12-06 21:11:17.062   Non-default bitness: 64-bit
+2018-12-06 21:11:17.062   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.062   Installing the file.
+2018-12-06 21:11:17.062   Creating directory: L:\Streaming Audio Recorder\wmpplugins\x64
+2018-12-06 21:11:17.073   Successfully installed the file.
+2018-12-06 21:11:17.073   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.074   -- File entry --
+2018-12-06 21:11:17.074   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll
+2018-12-06 21:11:17.074   Non-default bitness: 64-bit
+2018-12-06 21:11:17.075   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.075   Installing the file.
+2018-12-06 21:11:17.083   Successfully installed the file.
+2018-12-06 21:11:17.084   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.084   -- File entry --
+2018-12-06 21:11:17.084   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll
+2018-12-06 21:11:17.084   Non-default bitness: 64-bit
+2018-12-06 21:11:17.085   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.085   Installing the file.
+2018-12-06 21:11:17.090   Successfully installed the file.
+2018-12-06 21:11:17.090   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.090   -- File entry --
+2018-12-06 21:11:17.090   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll
+2018-12-06 21:11:17.091   Non-default bitness: 64-bit
+2018-12-06 21:11:17.091   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.091   Installing the file.
+2018-12-06 21:11:17.101   Successfully installed the file.
+2018-12-06 21:11:17.101   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.101   -- File entry --
+2018-12-06 21:11:17.102   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll
+2018-12-06 21:11:17.102   Non-default bitness: 64-bit
+2018-12-06 21:11:17.102   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.102   Installing the file.
+2018-12-06 21:11:17.110   Successfully installed the file.
+2018-12-06 21:11:17.110   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.111   -- File entry --
+2018-12-06 21:11:17.111   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll
+2018-12-06 21:11:17.111   Non-default bitness: 64-bit
+2018-12-06 21:11:17.112   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.112   Installing the file.
+2018-12-06 21:11:17.121   Successfully installed the file.
+2018-12-06 21:11:17.121   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.122   -- File entry --
+2018-12-06 21:11:17.122   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll
+2018-12-06 21:11:17.122   Non-default bitness: 64-bit
+2018-12-06 21:11:17.123   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.123   Installing the file.
+2018-12-06 21:11:17.134   Successfully installed the file.
+2018-12-06 21:11:17.134   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.134   -- File entry --
+2018-12-06 21:11:17.135   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll
+2018-12-06 21:11:17.135   Non-default bitness: 64-bit
+2018-12-06 21:11:17.136   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.136   Installing the file.
+2018-12-06 21:11:17.146   Successfully installed the file.
+2018-12-06 21:11:17.146   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.147   -- File entry --
+2018-12-06 21:11:17.147   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll
+2018-12-06 21:11:17.147   Non-default bitness: 64-bit
+2018-12-06 21:11:17.148   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.148   Installing the file.
+2018-12-06 21:11:17.170   Successfully installed the file.
+2018-12-06 21:11:17.170   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.170   -- File entry --
+2018-12-06 21:11:17.170   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll
+2018-12-06 21:11:17.170   Non-default bitness: 64-bit
+2018-12-06 21:11:17.171   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.171   Installing the file.
+2018-12-06 21:11:17.183   Successfully installed the file.
+2018-12-06 21:11:17.183   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.183   -- File entry --
+2018-12-06 21:11:17.183   Dest filename: L:\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll
+2018-12-06 21:11:17.183   Non-default bitness: 64-bit
+2018-12-06 21:11:17.184   Time stamp of our file: 2017-09-10 16:14:48.000
+2018-12-06 21:11:17.184   Installing the file.
+2018-12-06 21:11:17.191   Successfully installed the file.
+2018-12-06 21:11:17.191   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.191   -- File entry --
+2018-12-06 21:11:17.192   Dest filename: L:\Streaming Audio Recorder\wmpplugins\aacpParser.dll
+2018-12-06 21:11:17.192   Time stamp of our file: 2017-09-10 16:14:50.000
+2018-12-06 21:11:17.192   Installing the file.
+2018-12-06 21:11:17.226   Successfully installed the file.
+2018-12-06 21:11:17.226   Will register the file (a DLL/OCX) later.
+2018-12-06 21:11:17.226   -- File entry --
+2018-12-06 21:11:17.227   Dest filename: L:\Streaming Audio Recorder\acrcloud_extr_windows.dll
+2018-12-06 21:11:17.227   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:17.227   Installing the file.
+2018-12-06 21:11:17.232   Successfully installed the file.
+2018-12-06 21:11:17.232   -- File entry --
+2018-12-06 21:11:17.233   Dest filename: L:\Streaming Audio Recorder\AdjMmsEng.dll
+2018-12-06 21:11:17.233   Time stamp of our file: 2017-09-10 16:13:30.000
+2018-12-06 21:11:17.233   Installing the file.
+2018-12-06 21:11:17.531   Successfully installed the file.
+2018-12-06 21:11:17.531   -- File entry --
+2018-12-06 21:11:17.532   Dest filename: L:\Streaming Audio Recorder\ApowersoftConverter.dll
+2018-12-06 21:11:17.532   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:17.532   Installing the file.
+2018-12-06 21:11:18.273   Successfully installed the file.
+2018-12-06 21:11:18.274   -- File entry --
+2018-12-06 21:11:18.274   Dest filename: L:\Streaming Audio Recorder\ApowersoftMusicPlayer.dll
+2018-12-06 21:11:18.275   Time stamp of our file: 2017-09-10 16:13:00.000
+2018-12-06 21:11:18.275   Installing the file.
+2018-12-06 21:11:18.354   Successfully installed the file.
+2018-12-06 21:11:18.354   -- File entry --
+2018-12-06 21:11:18.355   Dest filename: L:\Streaming Audio Recorder\ApowersoftVideoHelper.dll
+2018-12-06 21:11:18.355   Time stamp of our file: 2018-07-31 10:21:40.000
+2018-12-06 21:11:18.356   Installing the file.
+2018-12-06 21:11:18.999   Successfully installed the file.
+2018-12-06 21:11:18.999   -- File entry --
+2018-12-06 21:11:19.000   Dest filename: L:\Streaming Audio Recorder\AudioSoundRecorder.dll
+2018-12-06 21:11:19.000   Time stamp of our file: 2017-09-10 16:13:30.000
+2018-12-06 21:11:19.000   Installing the file.
+2018-12-06 21:11:19.023   Successfully installed the file.
+2018-12-06 21:11:19.024   -- File entry --
+2018-12-06 21:11:19.025   Dest filename: L:\Streaming Audio Recorder\AxInterop.WMPLib.dll
+2018-12-06 21:11:19.026   Time stamp of our file: 2017-09-10 16:13:30.000
+2018-12-06 21:11:19.026   Installing the file.
+2018-12-06 21:11:19.031   Successfully installed the file.
+2018-12-06 21:11:19.031   -- File entry --
+2018-12-06 21:11:19.032   Dest filename: L:\Streaming Audio Recorder\Faac.exe
+2018-12-06 21:11:19.032   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.032   Installing the file.
+2018-12-06 21:11:19.053   Successfully installed the file.
+2018-12-06 21:11:19.054   -- File entry --
+2018-12-06 21:11:19.054   Dest filename: L:\Streaming Audio Recorder\Interop.iTunesLib.dll
+2018-12-06 21:11:19.055   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.055   Installing the file.
+2018-12-06 21:11:19.060   Successfully installed the file.
+2018-12-06 21:11:19.060   -- File entry --
+2018-12-06 21:11:19.062   Dest filename: L:\Streaming Audio Recorder\Interop.WMPLib.dll
+2018-12-06 21:11:19.062   Time stamp of our file: 2017-09-10 16:13:30.000
+2018-12-06 21:11:19.062   Installing the file.
+2018-12-06 21:11:19.080   Successfully installed the file.
+2018-12-06 21:11:19.080   -- File entry --
+2018-12-06 21:11:19.080   Dest filename: L:\Streaming Audio Recorder\Lame.exe
+2018-12-06 21:11:19.081   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.081   Installing the file.
+2018-12-06 21:11:19.120   Successfully installed the file.
+2018-12-06 21:11:19.120   -- File entry --
+2018-12-06 21:11:19.121   Dest filename: L:\Streaming Audio Recorder\log.xml
+2018-12-06 21:11:19.121   Time stamp of our file: 2017-09-10 16:12:40.000
+2018-12-06 21:11:19.121   Installing the file.
+2018-12-06 21:11:19.123   Successfully installed the file.
+2018-12-06 21:11:19.123   -- File entry --
+2018-12-06 21:11:19.123   Dest filename: L:\Streaming Audio Recorder\MediaInfo.dll
+2018-12-06 21:11:19.124   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.124   Installing the file.
+2018-12-06 21:11:19.265   Successfully installed the file.
+2018-12-06 21:11:19.265   -- File entry --
+2018-12-06 21:11:19.266   Dest filename: L:\Streaming Audio Recorder\msvcp100.dll
+2018-12-06 21:11:19.266   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.266   Installing the file.
+2018-12-06 21:11:19.285   Successfully installed the file.
+2018-12-06 21:11:19.286   -- File entry --
+2018-12-06 21:11:19.286   Dest filename: L:\Streaming Audio Recorder\msvcr100.dll
+2018-12-06 21:11:19.287   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.287   Installing the file.
+2018-12-06 21:11:19.321   Successfully installed the file.
+2018-12-06 21:11:19.321   -- File entry --
+2018-12-06 21:11:19.322   Dest filename: L:\Streaming Audio Recorder\OggEnc.exe
+2018-12-06 21:11:19.322   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.322   Installing the file.
+2018-12-06 21:11:19.352   Successfully installed the file.
+2018-12-06 21:11:19.352   -- File entry --
+2018-12-06 21:11:19.353   Dest filename: L:\Streaming Audio Recorder\SimMetrics.dll
+2018-12-06 21:11:19.353   Time stamp of our file: 2017-09-10 16:13:30.000
+2018-12-06 21:11:19.353   Installing the file.
+2018-12-06 21:11:19.356   Successfully installed the file.
+2018-12-06 21:11:19.356   -- File entry --
+2018-12-06 21:11:19.357   Dest filename: L:\Streaming Audio Recorder\Streaming Audio Recorder.exe
+2018-12-06 21:11:19.357   Time stamp of our file: 2018-08-27 17:33:28.000
+2018-12-06 21:11:19.357   Installing the file.
+2018-12-06 21:11:19.779   Successfully installed the file.
+2018-12-06 21:11:19.780   -- File entry --
+2018-12-06 21:11:19.781   Dest filename: L:\Streaming Audio Recorder\Streaming Audio Recorder.exe.config
+2018-12-06 21:11:19.781   Time stamp of our file: 2017-09-10 16:12:40.000
+2018-12-06 21:11:19.781   Installing the file.
+2018-12-06 21:11:19.783   Successfully installed the file.
+2018-12-06 21:11:19.783   -- File entry --
+2018-12-06 21:11:19.784   Dest filename: L:\Streaming Audio Recorder\Wma.exe
+2018-12-06 21:11:19.784   Time stamp of our file: 2017-09-10 16:13:10.000
+2018-12-06 21:11:19.784   Installing the file.
+2018-12-06 21:11:19.796   Successfully installed the file.
+2018-12-06 21:11:19.796   -- File entry --
+2018-12-06 21:11:19.797   Dest filename: L:\Streaming Audio Recorder\Lang\ChineseSimplified.xml
+2018-12-06 21:11:19.798   Time stamp of our file: 2018-05-23 15:10:28.000
+2018-12-06 21:11:19.798   Installing the file.
+2018-12-06 21:11:19.798   Creating directory: L:\Streaming Audio Recorder\Lang
+2018-12-06 21:11:19.801   Successfully installed the file.
+2018-12-06 21:11:19.803   -- Icon entry --
+2018-12-06 21:11:19.803   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\录音精灵.lnk
+2018-12-06 21:11:19.807   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft
+2018-12-06 21:11:19.918   Creating directory: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder
+2018-12-06 21:11:19.967   Creating the icon.
+2018-12-06 21:11:19.979   Successfully created the icon.
+2018-12-06 21:11:19.986   -- Icon entry --
+2018-12-06 21:11:19.986   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\录音精灵网站.url
+2018-12-06 21:11:19.989   Creating the icon.
+2018-12-06 21:11:19.990   Successfully created the icon.
+2018-12-06 21:11:19.997   -- Icon entry --
+2018-12-06 21:11:19.997   Dest filename: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Apowersoft\Streaming Audio Recorder\卸载录音精灵.lnk
+2018-12-06 21:11:20.000   Creating the icon.
+2018-12-06 21:11:20.004   Successfully created the icon.
+2018-12-06 21:11:20.012   -- Icon entry --
+2018-12-06 21:11:20.013   Dest filename: C:\Users\Public\Desktop\录音精灵.lnk
+2018-12-06 21:11:20.015   Creating the icon.
+2018-12-06 21:11:20.019   Successfully created the icon.
+2018-12-06 21:11:20.032   -- INI entry --
+2018-12-06 21:11:20.032   Dest filename: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2018-12-06 21:11:20.032   Section: Main
+2018-12-06 21:11:20.032   Entry: Language
+2018-12-06 21:11:20.032   Value: ChineseSimplified
+2018-12-06 21:11:20.032   Updating the .INI file.
+2018-12-06 21:11:20.033   Successfully updated the .INI file.
+2018-12-06 21:11:20.033   -- INI entry --
+2018-12-06 21:11:20.033   Dest filename: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini
+2018-12-06 21:11:20.033   Section: Main
+2018-12-06 21:11:20.033   Entry: ID
+2018-12-06 21:11:20.033   Value: 5041
+2018-12-06 21:11:20.033   Updating the .INI file.
+2018-12-06 21:11:20.034   Successfully updated the .INI file.
+2018-12-06 21:11:20.034   -- INI entry --
+2018-12-06 21:11:20.034   Dest filename: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini
+2018-12-06 21:11:20.034   Section: Main
+2018-12-06 21:11:20.034   Entry: Version
+2018-12-06 21:11:20.034   Value: V4.2.3 (Build 08/27/2018)
+2018-12-06 21:11:20.034   Updating the .INI file.
+2018-12-06 21:11:20.035   Successfully updated the .INI file.
+2018-12-06 21:11:20.035   -- INI entry --
+2018-12-06 21:11:20.035   Dest filename: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2018-12-06 21:11:20.035   Section: Main
+2018-12-06 21:11:20.035   Entry: HideLang
+2018-12-06 21:11:20.035   Value: 1
+2018-12-06 21:11:20.035   Updating the .INI file.
+2018-12-06 21:11:20.036   Successfully updated the .INI file.
+2018-12-06 21:11:20.036   -- INI entry --
+2018-12-06 21:11:20.036   Dest filename: C:\Users\lxhuw\AppData\Roaming\Apowersoft\Streaming Audio Recorder\config.ini 
+2018-12-06 21:11:20.036   Section: Main
+2018-12-06 21:11:20.036   Entry: Type
+2018-12-06 21:11:20.036   Value: saas-cn
+2018-12-06 21:11:20.036   Updating the .INI file.
+2018-12-06 21:11:20.037   Successfully updated the .INI file.
+2018-12-06 21:11:20.042   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll
+2018-12-06 21:11:20.046   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfNativeFLACSource.dll"
+2018-12-06 21:11:20.129   Registration successful.
+2018-12-06 21:11:20.129   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll
+2018-12-06 21:11:20.133   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggDemux2.dll"
+2018-12-06 21:11:20.272   Registration successful.
+2018-12-06 21:11:20.272   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll
+2018-12-06 21:11:20.277   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfOggMux.dll"
+2018-12-06 21:11:20.358   Registration successful.
+2018-12-06 21:11:20.358   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll
+2018-12-06 21:11:20.362   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexDecoder.dll"
+2018-12-06 21:11:20.436   Registration successful.
+2018-12-06 21:11:20.436   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll
+2018-12-06 21:11:20.440   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfSpeexEncoder.dll"
+2018-12-06 21:11:20.516   Registration successful.
+2018-12-06 21:11:20.516   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll
+2018-12-06 21:11:20.519   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraDecoder.dll"
+2018-12-06 21:11:20.586   Registration successful.
+2018-12-06 21:11:20.586   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll
+2018-12-06 21:11:20.589   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfTheoraEncoder.dll"
+2018-12-06 21:11:20.659   Registration successful.
+2018-12-06 21:11:20.659   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll
+2018-12-06 21:11:20.662   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisDecoder.dll"
+2018-12-06 21:11:20.728   Registration successful.
+2018-12-06 21:11:20.728   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll
+2018-12-06 21:11:20.731   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\dsfVorbisEncoder.dll"
+2018-12-06 21:11:20.801   Registration successful.
+2018-12-06 21:11:20.801   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll
+2018-12-06 21:11:20.806   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\vp8decoder.dll"
+2018-12-06 21:11:20.883   Registration successful.
+2018-12-06 21:11:20.883   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll
+2018-12-06 21:11:20.886   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x86\webmsplit.dll"
+2018-12-06 21:11:20.956   Registration successful.
+2018-12-06 21:11:20.956   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll
+2018-12-06 21:11:20.960   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfNativeFLACSource.dll"
+2018-12-06 21:11:21.022   Registration successful.
+2018-12-06 21:11:21.022   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll
+2018-12-06 21:11:21.025   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggDemux2.dll"
+2018-12-06 21:11:21.081   Registration successful.
+2018-12-06 21:11:21.081   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll
+2018-12-06 21:11:21.084   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfOggMux.dll"
+2018-12-06 21:11:21.137   Registration successful.
+2018-12-06 21:11:21.137   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll
+2018-12-06 21:11:21.140   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexDecoder.dll"
+2018-12-06 21:11:21.194   Registration successful.
+2018-12-06 21:11:21.194   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll
+2018-12-06 21:11:21.197   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfSpeexEncoder.dll"
+2018-12-06 21:11:21.256   Registration successful.
+2018-12-06 21:11:21.256   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll
+2018-12-06 21:11:21.258   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraDecoder.dll"
+2018-12-06 21:11:21.314   Registration successful.
+2018-12-06 21:11:21.314   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll
+2018-12-06 21:11:21.317   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfTheoraEncoder.dll"
+2018-12-06 21:11:21.372   Registration successful.
+2018-12-06 21:11:21.372   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll
+2018-12-06 21:11:21.375   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisDecoder.dll"
+2018-12-06 21:11:21.429   Registration successful.
+2018-12-06 21:11:21.429   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll
+2018-12-06 21:11:21.433   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\dsfVorbisEncoder.dll"
+2018-12-06 21:11:21.487   Registration successful.
+2018-12-06 21:11:21.487   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll
+2018-12-06 21:11:21.490   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\vp8decoder.dll"
+2018-12-06 21:11:21.601   Registration successful.
+2018-12-06 21:11:21.602   Registering 64-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll
+2018-12-06 21:11:21.607   Spawning 64-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\x64\webmsplit.dll"
+2018-12-06 21:11:21.698   Registration successful.
+2018-12-06 21:11:21.698   Registering 32-bit DLL/OCX: L:\Streaming Audio Recorder\wmpplugins\aacpParser.dll
+2018-12-06 21:11:21.702   Spawning 32-bit RegSvr32: "C:\WINDOWS\system32\regsvr32.exe" /s "L:\Streaming Audio Recorder\wmpplugins\aacpParser.dll"
+2018-12-06 21:11:21.788   Registration successful.
+2018-12-06 21:11:21.798   Installation process succeeded.
+2018-12-06 21:11:23.024   Need to restart Windows? No
