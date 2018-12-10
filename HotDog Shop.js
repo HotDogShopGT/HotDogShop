@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"HotDog Shop_atlas_", frames: [[0,0,1200,1350]]},
-		{name:"HotDog Shop_atlas_2", frames: [[1306,0,725,416],[1306,584,225,225],[1786,584,245,169],[1306,418,630,164],[0,0,1304,728],[0,730,980,90],[1245,730,52,121],[1533,787,343,147],[1533,584,251,201],[982,730,261,193],[1938,418,70,125],[1878,755,77,107]]}
+		{name:"HotDog Shop_atlas_2", frames: [[1306,0,725,416],[1306,584,225,225],[1533,733,245,169],[1306,418,630,164],[0,0,1304,728],[0,730,980,90],[1878,584,52,121],[1533,584,343,147],[982,730,261,193],[1938,418,70,125],[1938,545,77,107]]}
 ];
 
 
@@ -47,7 +47,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_3 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -75,30 +75,23 @@ lib.ssMetadata = [
 
 
 
-(lib.playsound = function() {
+(lib.SHOP = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SHOP = function() {
+(lib.站 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.站 = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.跑 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -204,7 +197,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
 	// background
 	this.instance = new lib.bgtitle();
 	this.instance.parent = this;
-	this.instance.setTransform(0,102);
+	this.instance.setTransform(0,53);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -218,7 +211,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_2();
+	this.instance_1 = new lib.CachedTexturedBitmap_3();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -319,15 +312,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// game
-	this.instance = new lib.playsound();
+	this.instance = new lib.A_1();
 	this.instance.parent = this;
-	this.instance.setTransform(157,4);
+	this.instance.setTransform(67,60.6);
+	this.instance._off = true;
 
-	this.instance_1 = new lib.A_1();
-	this.instance_1.parent = this;
-	this.instance_1.setTransform(88.85,72.45);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},42).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(42).to({_off:false},0).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -387,7 +377,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_2 = new lib.PLAY();
 	this.button_2.name = "button_2";
 	this.button_2.parent = this;
-	this.button_2.setTransform(173.2,277.6);
+	this.button_2.setTransform(171.2,342.1,0.9885,1);
 	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
 	this.button_12 = new lib.LetterB();
@@ -538,7 +528,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.actions = new lib.场景_1_actions();
 	this.actions.name = "actions";
 	this.actions.parent = this;
-	this.actions.setTransform(344.7,351.1,1,1,0,0,0,344.7,351.1);
+	this.actions.setTransform(340.7,415.6,1,1,0,0,0,340.7,415.6);
 	this.actions.depth = 0;
 	this.actions.isAttachedToCamera = 0
 	this.actions.isAttachedToMask = 0
@@ -591,7 +581,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.background = new lib.场景_1_background();
 	this.background.name = "background";
 	this.background.parent = this;
-	this.background.setTransform(315,184,1,1,0,0,0,315,184);
+	this.background.setTransform(315,135,1,1,0,0,0,315,135);
 	this.background.depth = 0;
 	this.background.isAttachedToCamera = 0
 	this.background.isAttachedToMask = 0
@@ -612,10 +602,10 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544409821523", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544409821523", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/backgroundmusic.mp3?1544409821553", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544409821553", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544412002911", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544412002911", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/backgroundmusic.mp3?1544412002936", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544412002936", id:"surprice"}
 	],
 	preloads: []
 };
