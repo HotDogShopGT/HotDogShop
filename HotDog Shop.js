@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"HotDog Shop_atlas_", frames: [[0,0,1200,1350]]},
-		{name:"HotDog Shop_atlas_2", frames: [[1306,0,725,416],[1306,584,225,225],[1533,733,245,169],[1306,418,630,164],[0,0,1304,728],[0,730,980,90],[1878,584,52,121],[1533,584,343,147],[982,730,261,193],[1938,418,70,125],[1938,545,77,107]]}
+		{name:"HotDog Shop_atlas_2", frames: [[1306,0,725,416],[1306,584,225,225],[1786,584,245,169],[1306,418,630,164],[0,0,1304,728],[0,730,980,90],[1245,730,52,121],[1533,787,343,147],[1533,584,251,201],[982,730,261,193],[1938,418,70,125],[1878,755,77,107]]}
 ];
 
 
@@ -47,7 +47,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_12 = function() {
+(lib.CachedTexturedBitmap_2 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -75,23 +75,30 @@ lib.ssMetadata = [
 
 
 
-(lib.SHOP = function() {
+(lib.playsound = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.站 = function() {
+(lib.SHOP = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.跑 = function() {
+(lib.站 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.跑 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -211,7 +218,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_12();
+	this.instance_1 = new lib.CachedTexturedBitmap_2();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -308,6 +315,23 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 }).prototype = p = new cjs.MovieClip();
 
 
+(lib.场景_1_game = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// game
+	this.instance = new lib.playsound();
+	this.instance.parent = this;
+	this.instance.setTransform(157,4);
+
+	this.instance_1 = new lib.A_1();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(88.85,72.45);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1},{t:this.instance}]},42).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+
+
 (lib.场景_1_animationpart2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -363,7 +387,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_2 = new lib.PLAY();
 	this.button_2.name = "button_2";
 	this.button_2.parent = this;
-	this.button_2.setTransform(174.2,266);
+	this.button_2.setTransform(173.2,277.6);
 	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
 	this.button_12 = new lib.LetterB();
@@ -453,6 +477,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 		function fl_MouseClickHandler_13()
 		{
 			this.gotoAndPlay(23);
+			//stop all sounds
+			createjs.Sound.stop();
 		}
 		
 		//stop here
@@ -477,7 +503,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	}
 	this.frame_23 = function() {
 		this.button_13 = undefined;this.button_15 = this.letters.button_15;
-		this.___loopingOver___ = true;
 		this.stop();
 		
 		//back to menu
@@ -489,23 +514,39 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 			
 		}
 	}
+	this.frame_42 = function() {
+		this.___loopingOver___ = true;
+	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(8).call(this.frame_9).wait(8).call(this.frame_17).wait(3).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(8).call(this.frame_9).wait(8).call(this.frame_17).wait(3).call(this.frame_20).wait(1).call(this.frame_21).wait(1).call(this.frame_22).wait(1).call(this.frame_23).wait(19).call(this.frame_42).wait(1));
+
+	// game_obj_
+	this.game = new lib.场景_1_game();
+	this.game.name = "game";
+	this.game.parent = this;
+	this.game.depth = 0;
+	this.game.isAttachedToCamera = 0
+	this.game.isAttachedToMask = 0
+	this.game.layerDepth = 0
+	this.game.layerIndex = 0
+	this.game.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.game).wait(43));
 
 	// actions_obj_
 	this.actions = new lib.场景_1_actions();
 	this.actions.name = "actions";
 	this.actions.parent = this;
-	this.actions.setTransform(345.7,339.5,1,1,0,0,0,345.7,339.5);
+	this.actions.setTransform(344.7,351.1,1,1,0,0,0,344.7,351.1);
 	this.actions.depth = 0;
 	this.actions.isAttachedToCamera = 0
 	this.actions.isAttachedToMask = 0
 	this.actions.layerDepth = 0
-	this.actions.layerIndex = 0
+	this.actions.layerIndex = 1
 	this.actions.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.actions).wait(24));
+	this.timeline.addTween(cjs.Tween.get(this.actions).wait(23).to({_off:true},1).wait(19));
 
 	// letters_obj_
 	this.letters = new lib.场景_1_letters();
@@ -515,10 +556,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.letters.isAttachedToCamera = 0
 	this.letters.isAttachedToMask = 0
 	this.letters.layerDepth = 0
-	this.letters.layerIndex = 1
+	this.letters.layerIndex = 2
 	this.letters.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.letters).wait(24));
+	this.timeline.addTween(cjs.Tween.get(this.letters).wait(23).to({_off:true},1).wait(19));
 
 	// animationpart2_obj_
 	this.animationpart2 = new lib.场景_1_animationpart2();
@@ -528,10 +569,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.animationpart2.isAttachedToCamera = 0
 	this.animationpart2.isAttachedToMask = 0
 	this.animationpart2.layerDepth = 0
-	this.animationpart2.layerIndex = 2
+	this.animationpart2.layerIndex = 3
 	this.animationpart2.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.animationpart2).wait(20).to({_off:true},1).wait(3));
+	this.timeline.addTween(cjs.Tween.get(this.animationpart2).wait(20).to({_off:true},1).wait(22));
 
 	// animationpart1_obj_
 	this.animationpart1 = new lib.场景_1_animationpart1();
@@ -541,10 +582,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.animationpart1.isAttachedToCamera = 0
 	this.animationpart1.isAttachedToMask = 0
 	this.animationpart1.layerDepth = 0
-	this.animationpart1.layerIndex = 3
+	this.animationpart1.layerIndex = 4
 	this.animationpart1.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.animationpart1).wait(16).to({_off:true},1).wait(7));
+	this.timeline.addTween(cjs.Tween.get(this.animationpart1).wait(16).to({_off:true},1).wait(26));
 
 	// background_obj_
 	this.background = new lib.场景_1_background();
@@ -555,13 +596,13 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.background.isAttachedToCamera = 0
 	this.background.isAttachedToMask = 0
 	this.background.layerDepth = 0
-	this.background.layerIndex = 4
+	this.background.layerIndex = 5
 	this.background.maskLayerName = 0
 
-	this.timeline.addTween(cjs.Tween.get(this.background).to({_off:true},1).wait(23));
+	this.timeline.addTween(cjs.Tween.get(this.background).to({_off:true},1).wait(42));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(345.1,249,675.1999999999999,250);
+p.nominalBounds = new cjs.Rectangle(0,0,1020.3,499);
 // library properties:
 lib.properties = {
 	id: '18C280979098D742A10748B19EC853B3',
@@ -571,10 +612,10 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544407723421", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544407723421", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/backgroundmusic.mp3?1544407723449", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544407723449", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544409821523", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544409821523", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/backgroundmusic.mp3?1544409821553", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544409821553", id:"surprice"}
 	],
 	preloads: []
 };
