@@ -4,7 +4,7 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"HotDog Shop_atlas_", frames: [[0,0,1200,1350]]},
-		{name:"HotDog Shop_atlas_2", frames: [[1306,0,725,416],[1306,584,225,225],[1533,733,245,169],[1306,418,630,164],[0,0,1304,728],[0,730,980,90],[1878,584,52,121],[1533,584,343,147],[982,730,261,193],[1938,418,70,125],[1938,545,77,107]]}
+		{name:"HotDog Shop_atlas_2", frames: [[1629,1380,311,317],[902,1452,725,416],[1306,332,320,163],[1306,0,325,330],[1282,730,296,482],[0,1452,900,534],[1843,481,165,305],[1633,0,300,168],[0,730,1280,720],[1580,497,225,225],[1580,919,245,169],[1282,1214,630,164],[0,0,1304,728],[1629,1699,395,136],[902,1870,980,90],[1827,919,52,121],[1628,332,343,147],[1306,497,251,201],[1580,724,261,193],[1884,1837,70,125],[1956,1837,77,107]]}
 ];
 
 
@@ -12,9 +12,44 @@ lib.ssMetadata = [
 
 
 
-(lib._251P206135RW57 = function() {
+(lib._208817008 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._251P206135RW57 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._282328067 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._341198172 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._488953181 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib._5ae7ec854c966_thumb900 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -26,72 +61,107 @@ lib.ssMetadata = [
 
 
 
-(lib.B = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.backbutton = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.bgtitle = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedTexturedBitmap_1 = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.menu = function() {
-	this.initialize(ss["HotDog Shop_atlas_2"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.走 = function() {
+(lib.ache = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.playbutton = function() {
+(lib.apple = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.SHOP = function() {
+(lib.aunt = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.站 = function() {
+(lib.B = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.跑 = function() {
+(lib.backbutton = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.bgtitle = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedTexturedBitmap_2 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.learnbutton = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.menu = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.走 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.playbutton = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.playsound = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.SHOP = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.站 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.跑 = function() {
+	this.initialize(ss["HotDog Shop_atlas_2"]);
+	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -164,6 +234,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,50,60);
 }).prototype = getMCSymbolPrototype(lib.HotDogShop_图层_1, null, null);
 
 
+(lib.Bsound = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_2 = function() {
+		playSound("Bwav");
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(1));
+
+	// 图层_1
+	this.instance = new lib.playsound();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.3992,0.4866);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},2).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,100.2,97.8);
+
+
 (lib.Back = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -176,6 +268,28 @@ p.nominalBounds = new cjs.Rectangle(0,0,50,60);
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
+
+
+(lib.Asound = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// timeline functions:
+	this.frame_2 = function() {
+		playSound("Awav");
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(2).call(this.frame_2).wait(1));
+
+	// 图层_1
+	this.instance = new lib.playsound();
+	this.instance.parent = this;
+	this.instance.setTransform(0,0,0.4227,0.5065);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},2).wait(1));
+
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,106.1,101.8);
 
 
 (lib.A_图层_1 = function(mode,startPosition,loop) {
@@ -211,7 +325,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,112.1,75.7);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_1();
+	this.instance_1 = new lib.CachedTexturedBitmap_2();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -349,23 +463,27 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.initialize(mode,startPosition,loop,{});
 
 	// animationpart1
-	this.instance = new lib.站();
+	this.instance = new lib.learnbutton();
 	this.instance.parent = this;
-	this.instance.setTransform(40,255);
+	this.instance.setTransform(201,210,0.6986,0.7083);
 
-	this.instance_1 = new lib.走();
+	this.instance_1 = new lib.站();
 	this.instance_1.parent = this;
-	this.instance_1.setTransform(70,255);
+	this.instance_1.setTransform(40,255);
 
-	this.instance_2 = new lib.HotDogShop_1();
+	this.instance_2 = new lib.走();
 	this.instance_2.parent = this;
-	this.instance_2.setTransform(820.45,235.3,1.5326,1.5543,0,0,0,130.6,96.7);
+	this.instance_2.setTransform(70,255);
 
-	this.instance_3 = new lib.跑();
+	this.instance_3 = new lib.HotDogShop_1();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(84,257);
+	this.instance_3.setTransform(820.45,235.3,1.5326,1.5543,0,0,0,130.6,96.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance,p:{x:40,y:255}}]},1).to({state:[{t:this.instance_1,p:{x:70,y:255}}]},1).to({state:[{t:this.instance,p:{x:101,y:256}}]},1).to({state:[{t:this.instance_1,p:{x:130,y:255}}]},1).to({state:[{t:this.instance,p:{x:160,y:255}},{t:this.instance_2,p:{regY:96.7,scaleY:1.5543,x:820.45,y:235.3,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance,p:{x:130,y:255}},{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:782.25,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:688.35,y:235,regX:130.7,scaleX:1.5326}},{t:this.instance,p:{x:109,y:259}}]},1).to({state:[{t:this.instance,p:{x:54,y:255}},{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:571.75,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance,p:{x:0,y:255}},{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:535.75,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance,p:{x:0,y:255}},{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:531,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:531.85,y:235,regX:130.6,scaleX:1.5325}},{t:this.instance_1,p:{x:52,y:257}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:529.9,y:235,regX:130.6,scaleX:1.5326}},{t:this.instance_3,p:{x:84,y:257}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:533.1,y:235,regX:130.6,scaleX:1.5326}},{t:this.instance_1,p:{x:160,y:255}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:531,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance_3,p:{x:211,y:255}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:526.35,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance,p:{x:308,y:255}}]},1).to({state:[{t:this.instance_2,p:{regY:96.5,scaleY:1.5544,x:524,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance_3,p:{x:415,y:261}}]},1).wait(1));
+	this.instance_4 = new lib.跑();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(84,257);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1,p:{x:40,y:255}}]},1).to({state:[{t:this.instance_2,p:{x:70,y:255}}]},1).to({state:[{t:this.instance_1,p:{x:101,y:256}}]},1).to({state:[{t:this.instance_2,p:{x:130,y:255}}]},1).to({state:[{t:this.instance_1,p:{x:160,y:255}},{t:this.instance_3,p:{regY:96.7,scaleY:1.5543,x:820.45,y:235.3,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_1,p:{x:130,y:255}},{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:782.25,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:688.35,y:235,regX:130.7,scaleX:1.5326}},{t:this.instance_1,p:{x:109,y:259}}]},1).to({state:[{t:this.instance_1,p:{x:54,y:255}},{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:571.75,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_1,p:{x:0,y:255}},{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:535.75,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_1,p:{x:0,y:255}},{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:531,y:235,regX:130.6,scaleX:1.5326}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:531.85,y:235,regX:130.6,scaleX:1.5325}},{t:this.instance_2,p:{x:52,y:257}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:529.9,y:235,regX:130.6,scaleX:1.5326}},{t:this.instance_4,p:{x:84,y:257}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:533.1,y:235,regX:130.6,scaleX:1.5326}},{t:this.instance_2,p:{x:160,y:255}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:531,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance_4,p:{x:211,y:255}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:526.35,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance_1,p:{x:308,y:255}}]},1).to({state:[{t:this.instance_3,p:{regY:96.5,scaleY:1.5544,x:524,y:235,regX:130.5,scaleX:1.5326}},{t:this.instance_4,p:{x:415,y:261}}]},1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -377,7 +495,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_2 = new lib.PLAY();
 	this.button_2.name = "button_2";
 	this.button_2.parent = this;
-	this.button_2.setTransform(171.2,342.1,0.9885,1);
+	this.button_2.setTransform(170.2,324.2,0.9885,1);
 	new cjs.ButtonHelper(this.button_2, 0, 1, 1);
 
 	this.button_12 = new lib.LetterB();
@@ -386,7 +504,49 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.button_12.setTransform(160.25,155,1.476,1.2583,0,0,0,25.1,30);
 	new cjs.ButtonHelper(this.button_12, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_2}]}).to({state:[]},1).to({state:[{t:this.button_12}]},19).to({state:[]},1).wait(2));
+	this.instance = new lib._5ae7ec854c966_thumb900();
+	this.instance.parent = this;
+	this.instance.setTransform(13,212,0.1931,0.2018);
+
+	this.instance_1 = new lib.Asound();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(251.1,92.9,1,1,0,0,0,53.1,50.9);
+	new cjs.ButtonHelper(this.instance_1, 0, 1, 2);
+
+	this.instance_2 = new lib.aunt();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(532,212,0.1116,0.1346);
+
+	this.instance_3 = new lib.ache();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(399,184,0.603,0.4925);
+
+	this.instance_4 = new lib.apple();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(210,212,0.4772,0.6101);
+
+	this.instance_5 = new lib._488953181();
+	this.instance_5.parent = this;
+	this.instance_5.setTransform(567,160,0.3365,0.2961);
+
+	this.instance_6 = new lib.Bsound();
+	this.instance_6.parent = this;
+	this.instance_6.setTransform(202.1,88.9,1,1,0,0,0,50.1,48.9);
+	new cjs.ButtonHelper(this.instance_6, 0, 1, 2);
+
+	this.instance_7 = new lib._341198172();
+	this.instance_7.parent = this;
+	this.instance_7.setTransform(377,160,0.3808,0.3866);
+
+	this.instance_8 = new lib._282328067();
+	this.instance_8.parent = this;
+	this.instance_8.setTransform(192,196,0.4063,0.5614);
+
+	this.instance_9 = new lib._208817008();
+	this.instance_9.parent = this;
+	this.instance_9.setTransform(42,189,0.3045,0.3114);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_2}]}).to({state:[]},1).to({state:[{t:this.button_12}]},19).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]},1).to({state:[{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5}]},1).wait(1));
 
 }).prototype = p = new cjs.MovieClip();
 
@@ -466,7 +626,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 		
 		function fl_MouseClickHandler_13()
 		{
-			this.gotoAndPlay(23);
+			this.gotoAndPlay(22);
 			//stop all sounds
 			createjs.Sound.stop();
 		}
@@ -525,7 +685,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.actions = new lib.场景_1_actions();
 	this.actions.name = "actions";
 	this.actions.parent = this;
-	this.actions.setTransform(340.7,415.6,1,1,0,0,0,340.7,415.6);
+	this.actions.setTransform(339.7,397.7,1,1,0,0,0,339.7,397.7);
 	this.actions.depth = 0;
 	this.actions.isAttachedToCamera = 0
 	this.actions.isAttachedToMask = 0
@@ -565,6 +725,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 	this.animationpart1 = new lib.场景_1_animationpart1();
 	this.animationpart1.name = "animationpart1";
 	this.animationpart1.parent = this;
+	this.animationpart1.setTransform(338.9,258.1,1,1,0,0,0,338.9,258.1);
 	this.animationpart1.depth = 0;
 	this.animationpart1.isAttachedToCamera = 0
 	this.animationpart1.isAttachedToMask = 0
@@ -599,10 +760,12 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544413075254", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544413075254", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/backgroundmusic.mp3?1544413075285", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544413075286", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544415363244", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544415363244", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/Awav.mp3?1544415363283", id:"Awav"},
+		{src:"sounds/Bwav.mp3?1544415363283", id:"Bwav"},
+		{src:"sounds/backgroundmusic.mp3?1544415363283", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544415363283", id:"surprice"}
 	],
 	preloads: []
 };
