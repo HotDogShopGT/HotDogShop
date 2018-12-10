@@ -103,7 +103,7 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_3 = function() {
 	this.initialize(ss["HotDog Shop_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
@@ -325,7 +325,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,106.1,101.8);
 	this.instance = new lib.menu();
 	this.instance.parent = this;
 
-	this.instance_1 = new lib.CachedTexturedBitmap_2();
+	this.instance_1 = new lib.CachedTexturedBitmap_3();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(32.3,99.65,0.5,0.5);
 
@@ -519,7 +519,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 
 	this.instance_3 = new lib.ache();
 	this.instance_3.parent = this;
-	this.instance_3.setTransform(399,184,0.603,0.4925);
+	this.instance_3.setTransform(393,184,0.603,0.4925);
 
 	this.instance_4 = new lib.apple();
 	this.instance_4.parent = this;
@@ -626,7 +626,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,980,463.7);
 		
 		function fl_MouseClickHandler_13()
 		{
-			this.gotoAndPlay(22);
+			this.gotoAndPlay(21);
 			//stop all sounds
 			createjs.Sound.stop();
 		}
@@ -760,12 +760,12 @@ lib.properties = {
 	color: "#66FFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HotDog Shop_atlas_.png?1544415363244", id:"HotDog Shop_atlas_"},
-		{src:"images/HotDog Shop_atlas_2.png?1544415363244", id:"HotDog Shop_atlas_2"},
-		{src:"sounds/Awav.mp3?1544415363283", id:"Awav"},
-		{src:"sounds/Bwav.mp3?1544415363283", id:"Bwav"},
-		{src:"sounds/backgroundmusic.mp3?1544415363283", id:"backgroundmusic"},
-		{src:"sounds/surprice.mp3?1544415363283", id:"surprice"}
+		{src:"images/HotDog Shop_atlas_.png?1544416748007", id:"HotDog Shop_atlas_"},
+		{src:"images/HotDog Shop_atlas_2.png?1544416748008", id:"HotDog Shop_atlas_2"},
+		{src:"sounds/Awav.mp3?1544416748046", id:"Awav"},
+		{src:"sounds/Bwav.mp3?1544416748046", id:"Bwav"},
+		{src:"sounds/backgroundmusic.mp3?1544416748046", id:"backgroundmusic"},
+		{src:"sounds/surprice.mp3?1544416748046", id:"surprice"}
 	],
 	preloads: []
 };
